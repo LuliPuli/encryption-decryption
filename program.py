@@ -11,7 +11,7 @@ encrypt_pass(user_pass)
 
 # Password decryption program
 
-# import base64
+# import base64 - Add it if you haven't imported this library yet
 
 def decode_pass(password):
     decode_bytes = base64.b64decode(password)
